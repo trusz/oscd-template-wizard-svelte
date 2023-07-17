@@ -9,4 +9,7 @@ export default defineConfig({
 			formats: ["es"],
 		},
 	},
+	server: {
+		port: 56906
+	}
 });
