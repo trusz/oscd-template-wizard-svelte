@@ -30,6 +30,7 @@ export default defineConfig({
 		lib: {
 			entry:   "src/lib/index.ts",
 			formats: ["es"],
+			fileName: "oscd-template-wizard",
 		},
 		sourcemap: isDevelopment ? "inline" : false,
 	},

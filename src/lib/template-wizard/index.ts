@@ -1,5 +1,5 @@
 import TemplateWizard from './template-wizard.svelte'
-import * as pkg from "../../../../package.json";
+import * as pkg from "../../../package.json";
 
 export class Wizard extends HTMLElement {
 
@@ -20,6 +20,7 @@ export class Wizard extends HTMLElement {
 		});
 
 		const style = document.createElement("style");
+		// @ts-ignore
         style.innerHTML = globalThis.pluginStyle[pkg.name];
         this.shadowRoot.appendChild(style);
 	}

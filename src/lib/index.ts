@@ -1,4 +1,3 @@
-// place files you want to import through the `$lib` alias in this folder.
-import { Wizard } from "./components/template-wizard"
+import { Wizard } from "./template-wizard"
 
 export default Wizard
