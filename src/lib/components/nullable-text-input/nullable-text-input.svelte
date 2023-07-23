@@ -8,7 +8,7 @@
 	export let nullable = true
 	export let labelText = ""
 
-	let toggled = false
+	export let toggled = false
 
 </script>
 

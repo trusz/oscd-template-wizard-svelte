@@ -49,3 +49,25 @@ export function makeDATypeCreationEvent(
 	// TODO: there was more here, check original
 	return event
 }
+
+
+export function makeDATypeChangeEvent(
+	id: string, 
+	desc: string, 
+	element: Element,
+) {
+
+	if(!id){ throw new Error('id is required') }
+
+	const eventDetails = {
+		element: element,
+		attributes: {
+			id,
+			desc,
+		}
+	}
+
+	const event = new CustomEvent("oscd-edit", {detail: eventDetails, bubbles: true, composed: true})
+
+	return event
+}

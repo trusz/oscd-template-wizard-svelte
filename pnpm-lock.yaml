@@ -55,6 +55,9 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: ^5.45.0
     version: 5.62.0(eslint@8.45.0)(typescript@5.1.6)
+  carbon-icons-svelte:
+    specifier: ^12.1.0
+    version: 12.1.0
   concurrently:
     specifier: ^8.2.0
     version: 8.2.0
@@ -3630,6 +3633,10 @@ packages:
     dependencies:
       flatpickr: 4.6.9
     dev: false
+
+  /carbon-icons-svelte@12.1.0:
+    resolution: {integrity: sha512-RPU+W/AhkdPRqHMaShOdFluQZXMT6PNYrqEwPxDBvmrX2ioOYhZo1J508e0WeVX69iOqyUv6KjxrdbsoDdogeg==}
+    dev: true
 
   /chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}

@@ -4,6 +4,8 @@
     import { WizardCard } from "../components/wizard-card";
     import type { Optional } from "../x/type-helper";
     import { makeDATypeCreationEvent, makeWizardFinishedEvent } from "../x/events";
+	import Add from "carbon-icons-svelte/lib/Add.svelte";
+	
 
 	export let templates: Optional<Document>
 	export let parent: Optional<Element>
@@ -68,7 +70,7 @@
 		
 		<footer slot="footer">
 			<Button kind="ghost" on:click={handleCancel}>Cancel</Button>
-			<Button type="submit">Add</Button>
+			<Button type="submit" icon={Add}>Add</Button>
 		</footer>
 	</WizardCard>
 </form>

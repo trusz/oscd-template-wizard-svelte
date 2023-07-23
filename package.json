@@ -31,6 +31,7 @@
     "@types/node": "^20.4.2",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
+    "carbon-icons-svelte": "^12.1.0",
     "concurrently": "^8.2.0",
     "eslint": "^8.28.0",
     "eslint-plugin-storybook": "^0.6.13",
