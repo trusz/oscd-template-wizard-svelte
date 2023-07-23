@@ -13,7 +13,7 @@ export class Wizard extends HTMLElement {
 		this.templateWizard = new TemplateWizard({
 			target: this.shadowRoot,
 			props: {
-				tagName: this._tagName,
+				// tagName: this._tagName,
 				parent: this._parent,
 				element: this._element,
 			}
@@ -33,7 +33,7 @@ export class Wizard extends HTMLElement {
 		this._tagName = newTagName
 		if(!this.templateWizard) { return }
 
-		this.templateWizard.$set({tagName: newTagName})
+		// this.templateWizard.$set({tagName: newTagName})
 	}
 	
 	public set parent(newParent: Element){
