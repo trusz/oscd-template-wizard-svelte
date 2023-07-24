@@ -13,7 +13,6 @@
 	let formEl: HTMLFormElement
 
 	$: daTypes = Array.from( templates?.querySelectorAll('DAType') ?? []) 
-	$: console.log({level:"dev", parent})
 
 	function handleSubmit(e: SubmitEvent){
 		const formData = new FormData(e.target as HTMLFormElement)
